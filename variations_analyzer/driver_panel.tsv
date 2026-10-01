@@ -1,0 +1,25 @@
+# 1-based inclusive GRCh38. Fill gene coordinates from GeneCards; arm bounds from UCSC cytoBand.
+# TERT promoter hotspots: verify against your reference before use.
+name	gene	chrom	start	end	kind
+NF2	NF2	chr22			gene
+TRAF7	TRAF7	chr16			gene
+KLF4	KLF4	chr9			gene
+AKT1	AKT1	chr14			gene
+SMO	SMO	chr7			gene
+PIK3CA	PIK3CA	chr3			gene
+POLR2A	POLR2A	chr17			gene
+TERT	TERT	chr5			gene
+CDKN2A	CDKN2A	chr9			gene
+CDKN2B	CDKN2B	chr9			gene
+BAP1	BAP1	chr3			gene
+SMARCE1	SMARCE1	chr17			gene
+SMARCB1	SMARCB1	chr22			gene
+PTEN	PTEN	chr10			gene
+TP53	TP53	chr17			gene
+EGFR	EGFR	chr7			gene
+TERT C228T	TERT	chr5	1295113	1295113	hotspot
+TERT C250T	TERT	chr5	1295135	1295135	hotspot
+AKT1 E17K	AKT1	chr14			hotspot
+KLF4 K409Q	KLF4	chr9			hotspot
+1p	1p	chr1			arm
+22q	22q	chr22			arm

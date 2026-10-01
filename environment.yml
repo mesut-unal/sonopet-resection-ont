@@ -1,0 +1,30 @@
+name: sonopet
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  # core
+  - numpy=2.2
+  - pandas=2.2
+  - scipy=1.15
+  - matplotlib=3.10
+  - seaborn=0.13
+  - scikit-learn=1.7
+  - umap-learn=0.5
+  - joblib
+  - requests
+  # genomics
+  - pysam=0.23
+  - vcfpy=0.13
+  - pybedtools=0.12
+  - bedtools=2.31
+  # notebooks
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      # mutational signatures (mutation_signatures_sonopet.ipynb)
+      - SigProfilerExtractor==1.2.6
+      - SigProfilerMatrixGenerator==1.3.6
+      - SigProfilerPlotting==1.4.3

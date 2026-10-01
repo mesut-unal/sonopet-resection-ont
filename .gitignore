@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# toronto_projection: generated caches (contain unpublished ONT data) and outputs
+toronto_projection/cache_toronto_direct/
+toronto_projection/cache_toronto_direct_7patients/
+toronto_projection/output/
+
+# toronto_projection: large downloadable inputs (see toronto_projection/README.md)
+toronto_projection/input_data/*
+!toronto_projection/input_data/mg_sample_labels.tsv
