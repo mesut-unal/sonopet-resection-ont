@@ -91,3 +91,7 @@ See [toronto_projection/README.md](toronto_projection/README.md).
 Raw ONT sequencing data and derived variant calls are not distributed with
 this repository. Input paths in the scripts and notebooks use
 `/path/to/...` placeholders and must be set before running.
+
+## License
+
+Code in this repository is released under the [MIT License](LICENSE).
